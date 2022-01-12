@@ -189,7 +189,7 @@ class AnswerTile extends StatelessWidget {
     if (!isSelected) return Colors.white;
 
     if (answer == correctAnswer) {
-      return Colors.teal;
+      return Colors.green;
     }
 
     return Colors.redAccent;

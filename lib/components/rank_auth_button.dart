@@ -30,7 +30,7 @@ class _RankAuthButtonState extends State<RankAuthButton> {
 
     return ActionButton(
       isPrimary: false,
-      title: 'Đăng nhập bằng Google',
+      title: 'Đăng nhập với Google',
       onTap: () {
         if (kIsWeb) {
           AuthService.signInWithGoogleWeb();

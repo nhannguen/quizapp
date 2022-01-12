@@ -34,7 +34,7 @@ class _ResultScreenState extends State<ResultScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Result: ${widget.score} / ${widget.questions.length}',
+                'Kết quả: ${widget.score} / ${widget.questions.length}',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
