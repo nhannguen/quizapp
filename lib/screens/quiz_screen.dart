@@ -87,6 +87,14 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
               SizedBox(height: 40),
               Text(
+                'Điểm : ${_score}',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                ),
+              ),
+              SizedBox(height: 40),
+              Text(
                 'Câu hỏi:',
                 style: TextStyle(
                   fontSize: 20,
@@ -148,6 +156,7 @@ class _QuizScreenState extends State<QuizScreen> {
           questions: widget.questions,
           totalTime: widget.totalTime,
           score: _score,
+          answer: [],
         ),
       ),
     );
